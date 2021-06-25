@@ -1,0 +1,26 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": [
+      "eslint:recommended",
+      "plugin:jest/recommended",
+      "plugin:prettier/recommended"
+  ],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+      "ecmaVersion" : 6,
+      "sourceType": "module"
+  },
+  "globals": {
+      "console": true,
+      "process": true,
+      "module": true
+  },
+  "plugins": [ "import", "jest", "@babel" ],
+  "rules": {
+    "no-console": ["error"]
+  }
+}
