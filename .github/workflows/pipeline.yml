@@ -1,0 +1,44 @@
+name: Pipeline
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start At
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y%m%d_%H%M%S')"
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: Use Node 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Install
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Linter
+        run: npm run lint
+      - name: Unit Test
+        run: npm run test-unit-ci
+      - name: Mutation Test
+        run: npm run mutation
+      - name: Login docker
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: true
+          tags: |
+            alabra/search-challenge-api:${{ github.run_id }}_${{ steps.date.outputs.date }}
+            alabra/search-challenge-api:latest
+          labels: |
+            org.opencontainers.image.revision=${{ github.sha }}
