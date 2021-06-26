@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
   "ignorePatterns": [
-    "src/**/index.js"
+    "src/**/server.js"
   ],
   "testRunner": "jest",
   "reporters": [
