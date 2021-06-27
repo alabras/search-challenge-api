@@ -16,7 +16,7 @@ Hasta ahora se utilizará las siguientes pruebas:
 - Pruebas de integración: utilizando jest.
 - Pruebas de seguridad:
   - eslint-plugin-security: Para validar problemas de seguridad en el código
-  - Snyk: Para validar vulnerabilidades de packages y docker. Para poder ejecutarlas se debe crar cuenta gratis en snyk.io y configurar archivo .env con SNYK_TOKEN.
+  - Snyk: Para validar vulnerabilidades de packages y docker. Para poder ejecutarlas se debe crar cuenta gratis en snyk.io y configurar variable de entorno SNYK_TOKEN. Ej: export SNYK_TOKEN=XXXX
 - Pruebas de mutación: utilizando stryker.
 
 ## Consecuencias

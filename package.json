@@ -15,7 +15,7 @@
     "mutation": "stryker run",
     "awesome": "npm run test-unit-ci && npm run lint",
     "docker:build": "docker build -t search-challenger-api:latest .",
-    "snyk:auth": "export $(cat .env | xargs) && if [ -z ${SNYK_TOKEN+x} ]; then echo 'Debe configurar SNYK_TOKEN en archivo .env' && exit 1; fi && snyk auth $SNYK_TOKEN",
+    "snyk:auth": "if [ -z ${SNYK_TOKEN+x} ]; then echo 'Debe configurar variable de entorno SNYK_TOKEN. Ej: export SNYK_TOKEN=XXXX' && exit 1; fi && snyk auth $SNYK_TOKEN",
     "snyk:package": "npm run snyk:auth && snyk test",
     "snyk:docker": "npm run docker:build && npm run snyk:auth && snyk container test search-challenger-api:latest --file=Dockerfile"
   },
