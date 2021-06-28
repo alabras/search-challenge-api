@@ -27,6 +27,8 @@ jobs:
         run: npm run test:unit-ci
       - name: Mutation Test
         run: npm run test:mutate
+        env:
+          STRYKER_DASHBOARD_API_KEY: ${{ secrets.STRYKER_DASHBOARD_API_KEY }}
       - name: Snyk Packages
         run: |
           npx snyk auth ${{ secrets.SNYK_TOKEN }}
