@@ -1,6 +1,5 @@
 import app from '../app'
 import request from 'supertest'
-import { expect, it } from '@jest/globals'
 
 describe('healt Check route', () => {
   it('should return 200', async () => {

@@ -24,9 +24,9 @@ jobs:
       - name: Linter
         run: npm run lint
       - name: Unit Test
-        run: npm run test-unit-ci
+        run: npm run test:unit-ci
       - name: Mutation Test
-        run: npm run mutation
+        run: npm run test:mutate
       - name: Snyk Packages
         run: |
           npx snyk auth ${{ secrets.SNYK_TOKEN }}
