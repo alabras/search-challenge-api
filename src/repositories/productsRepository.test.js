@@ -13,10 +13,10 @@ describe('product repository', () => {
   it('query equals for findById', async () => {
     when(getDb).calledWith('products').mockReturnValue(mockDb)
     const query = { id: { $eq: 12 } }
-
+    const options = { projection: { _id: 0, brand: 1, description: 1, image: 1, price: 1 } }
     await findById(12)
 
-    expect(mockDb.findOne).toBeCalledWith(query)
+    expect(mockDb.findOne).toBeCalledWith(query, options)
   })
 
   it('query search by brand or description', async () => {
@@ -25,9 +25,10 @@ describe('product repository', () => {
     const query = {
       $or: [{ brand: { $regex: searchText, $options: 'i' } }, { description: { $regex: searchText, $options: 'i' } }],
     }
+    const options = { projection: { _id: 0, brand: 1, description: 1, image: 1, price: 1 } }
 
     await findByBrandDescription(searchText)
 
-    expect(mockDb.find).toBeCalledWith(query)
+    expect(mockDb.find).toBeCalledWith(query, options)
   })
 })

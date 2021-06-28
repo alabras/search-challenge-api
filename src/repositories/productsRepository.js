@@ -3,14 +3,16 @@ const COLLECTION = 'products'
 
 const findById = async (id) => {
   const query = { id: { $eq: id } }
-  return await getDb(COLLECTION).findOne(query)
+  const options = { projection: { _id: 0, brand: 1, description: 1, image: 1, price: 1 } }
+  return await getDb(COLLECTION).findOne(query, options)
 }
 
 const findByBrandDescription = async (search) => {
   const query = {
     $or: [{ brand: { $regex: search, $options: 'i' } }, { description: { $regex: search, $options: 'i' } }],
   }
-  return await getDb(COLLECTION).find(query)
+  const options = { projection: { _id: 0, brand: 1, description: 1, image: 1, price: 1 } }
+  return await getDb(COLLECTION).find(query, options)
 }
 
 export { findById, findByBrandDescription }
