@@ -7,15 +7,28 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 let server
-connectDb(() => {
-  server = app.listen(5000)
-})
+
+const startServer = async () => {
+  try {
+    await connectDb()
+    server = app.listen(5000)
+  } catch (error) {
+    console.error('Ups, cant start server: ', error)
+  }
+}
 
 const closeGracefully = async () => {
-  await server.close()
-  closeDb()
-  process.exit(0)
+  try {
+    await server?.close()
+    await closeDb()
+  } catch (error) {
+    console.error('Ups, cant stop server: ', error)
+  } finally {
+    process.exit(0)
+  }
 }
 
 process.on('SIGINT', closeGracefully)
 process.on('SIGTERM', closeGracefully)
+
+startServer()

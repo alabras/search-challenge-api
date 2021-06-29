@@ -6,6 +6,9 @@ import { when } from 'jest-when'
 jest.mock('../services/searchService')
 
 describe('search Route', () => {
+  beforeEach(() => {
+    process.env.LIST_CORS_URL = '/'
+  })
   it('should return 200 when search any text', async () => {
     when(searchStategy).calledWith('1e4').mockReturnValue([])
     const response = await request(app).get('/api/search?q=1e4')

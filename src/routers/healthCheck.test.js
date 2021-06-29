@@ -3,6 +3,7 @@ import request from 'supertest'
 
 describe('healt Check route', () => {
   it('should return 200', async () => {
+    process.env.LIST_CORS_URL = '/'
     const response = await request(app).get('/api/health')
 
     expect(response.statusCode).toBe(200)

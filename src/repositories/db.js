@@ -17,8 +17,8 @@ const getDb = (collectionName) => {
   return mongodbClient.db(mongoDataBase).collection(collectionName)
 }
 
-const closeDb = () => {
-  mongodbClient.close()
+const closeDb = async () => {
+  await mongodbClient?.close()
 }
 
 export { connectDb, getDb, closeDb }

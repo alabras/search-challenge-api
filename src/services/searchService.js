@@ -11,7 +11,7 @@ const searchById = async (searchText) => {
   const numberRegExp = RegExp(/^\d+$/)
   if (numberRegExp.test(searchText)) {
     const result = await findById(parseInt(searchText))
-    return [result]
+    if (result) return [result]
   }
   return []
 }

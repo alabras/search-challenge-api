@@ -1,4 +1,5 @@
 import express from 'express'
+import discountService from '../services/discountService'
 import searchStategy from '../services/searchService'
 
 const routerSearch = express.Router()
@@ -9,7 +10,8 @@ routerSearch.get('/search', async function (req, res, next) {
     _validation(searchText)
 
     const searchResult = await searchStategy(searchText)
-    res.send(searchResult)
+    const discountResult = await discountService(searchText, searchResult)
+    res.send(discountResult)
   } catch (error) {
     next(error)
   }

@@ -19,8 +19,5 @@
       "process": true,
       "module": true
   },
-  "plugins": [ "import", "jest", "@babel" ],
-  "rules": {
-    "no-console": ["error"]
-  }
+  "plugins": [ "import", "jest", "@babel" ]
 }

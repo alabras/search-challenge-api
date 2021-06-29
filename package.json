@@ -23,10 +23,12 @@
   "license": "ISC",
   "dependencies": {
     "@types/jest": "^26.0.23",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
     "memory-cache": "^0.2.0",
-    "mongodb": "^3.6.9"
+    "mongodb": "^3.6.9",
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",
@@ -37,7 +39,6 @@
     "@stryker-mutator/core": "^5.1.1",
     "@stryker-mutator/jest-runner": "^5.1.1",
     "babel-jest": "^27.0.5",
-    "dotenv": "^10.0.0",
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
