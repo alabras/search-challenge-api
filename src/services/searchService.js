@@ -4,7 +4,7 @@ const searchStategy = async (searchText) => {
   const resultById = await searchById(searchText)
   const resultByBrandDescription = await searchByBrandAndDescription(searchText)
 
-  return resultById.concat(resultByBrandDescription)
+  return resultById ?? resultByBrandDescription
 }
 
 const searchById = async (searchText) => {
@@ -12,17 +12,17 @@ const searchById = async (searchText) => {
   if (numberRegExp.test(searchText)) {
     const result = await findById(parseInt(searchText))
     if (result) return [result]
+    return []
   }
-  return []
+  return undefined
 }
 
 const searchByBrandAndDescription = async (searchText) => {
   const numberRegExp = RegExp(/^\d+$/)
   if (!numberRegExp.test(searchText)) {
-    const result = await findByBrandDescription(searchText)
-    return result.toArray()
+    return await findByBrandDescription(searchText)
   }
-  return []
+  return undefined
 }
 
 export default searchStategy

@@ -6,7 +6,9 @@ jest.mock('mongodb')
 
 describe('test connection with mongodb', () => {
   it('should throw exception when does exists environment MONGO_CONNECTION', async () => {
-    await expect(connectDb()).rejects.toThrowError('You must set environment variable of MONGO_CONNECTION.')
+    await expect(connectDb()).rejects.toThrowError(
+      'You must set environment variable of MONGO_CONNECTION.',
+    )
   })
 
   it('should connected to mongodb when exists environment MONGO_CONNECTION', async () => {
@@ -17,7 +19,9 @@ describe('test connection with mongodb', () => {
     await connectDb(callback)
 
     expect(connectSpy).toBeCalledTimes(1)
-    expect(connectSpy).toBeCalledWith('mongodb://localhost:27777', { useUnifiedTopology: true })
+    expect(connectSpy).toBeCalledWith('mongodb://localhost:27777', {
+      useUnifiedTopology: true,
+    })
     expect(callback).toBeCalledTimes(1)
   })
 

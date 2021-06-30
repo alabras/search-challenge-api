@@ -22,7 +22,7 @@ describe('search Service', () => {
 
     const result = await searchStategy(searchText)
 
-    expect(result).toStrictEqual([])
+    expect(result).toStrictEqual(cursorResult)
     expect(findById).not.toBeCalled()
     expect(findByBrandDescription).toBeCalledTimes(1)
   })
@@ -48,7 +48,7 @@ describe('search Service', () => {
 
     const result = await searchStategy(searchText)
 
-    expect(result).toStrictEqual(searchByStringResult)
+    expect(result).toStrictEqual(cursorResult)
     expect(findById).not.toBeCalled()
     expect(findByBrandDescription).toBeCalledTimes(1)
   })
@@ -64,7 +64,7 @@ describe('search Service', () => {
 
     const result = await searchStategy(searchText)
 
-    expect(result).toStrictEqual(searchByStringResult)
+    expect(result).toStrictEqual(cursorResult)
     expect(findById).not.toBeCalled()
     expect(findByBrandDescription).toBeCalledTimes(1)
   })
