@@ -25,19 +25,6 @@ jobs:
         run: npm run lint
       - name: Unit Test
         run: npm run test:unit-ci
-      - name: Mutation Test
-        run: npm run test:mutate
-        env:
-          STRYKER_DASHBOARD_API_KEY: ${{ secrets.STRYKER_DASHBOARD_API_KEY }}
-      - name: Snyk Packages
-        run: |
-          npx snyk auth ${{ secrets.SNYK_TOKEN }}
-          npx snyk monitor --project-name=search-challenge-api
-      - name: Snyk Container
-        run: |
-          npx snyk auth ${{ secrets.SNYK_TOKEN }}
-          npm run docker:build
-          npx snyk container monitor search-challenger-api:latest --file=Dockerfile --project-name=search-challenge-api-container
       - name: Login docker
         uses: docker/login-action@v1
         with:
@@ -53,3 +40,8 @@ jobs:
             alabra/search-challenge-api:latest
           labels: |
             org.opencontainers.image.revision=${{ github.sha }}
+      - uses: azure/webapps-deploy@v2
+        with:
+          app-name: 'search-challenge-api'
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          images: 'search-challenge-api:${{ github.run_id }}_${{ steps.date.outputs.date }}'

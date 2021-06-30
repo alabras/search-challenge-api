@@ -1,0 +1,37 @@
+name: Testing
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: Use Node 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Install
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Linter
+        run: npm run lint
+      - name: Unit Test
+        run: npm run test:unit-ci
+      - name: Mutation Test
+        run: npm run test:mutate
+        env:
+          STRYKER_DASHBOARD_API_KEY: ${{ secrets.STRYKER_DASHBOARD_API_KEY }}
+      - name: Snyk Packages
+        run: |
+          npx snyk auth ${{ secrets.SNYK_TOKEN }}
+          npx snyk monitor --project-name=search-challenge-api
+      - name: Snyk Container
+        run: |
+          npx snyk auth ${{ secrets.SNYK_TOKEN }}
+          npm run docker:build
+          npx snyk container monitor search-challenger-api:latest --file=Dockerfile --project-name=search-challenge-api-container
