@@ -10,7 +10,7 @@
     "clean": "rm -rf ./build",
     "test": "jest --testPathIgnorePatterns build/ node_modules/ --watchAll",
     "test:integration": "npm test -- --watchAll --testPathPattern=test/integration/.*$",
-    "test:unit-ci": "npm run test -- --watchAll=false --coverage",
+    "test:unit-ci": "npm run test -- --watchAll=false --coverage --reporters=jest-junit",
     "test:integration-ci": "npm run test:integration -- --reporters=default --reporters=jest-junit --watchAll=false",
     "lint": "eslint src",
     "lint-fix": "eslint src --fix",
@@ -66,6 +66,7 @@
         "lines": 90
       }
     },
+    "coverageDirectory": "./reports/coverage",
     "coveragePathIgnorePatterns": [
       "src/server.js"
     ],
