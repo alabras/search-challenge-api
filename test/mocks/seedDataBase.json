@@ -1,0 +1,704 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "brand": "ooy eqrceli",
+      "description": "rlñlw brhrka",
+      "image": "www.lider.cl/catalogo/images/whiteLineIcon.svg",
+      "price": 498724
+    },
+    {
+      "id": 2,
+      "brand": "dsaasd",
+      "description": "zlrwax bñyrh",
+      "image": "www.lider.cl/catalogo/images/babyIcon.svg",
+      "price": 130173
+    },
+    {
+      "id": 3,
+      "brand": "weñxoab",
+      "description": "hqhoy qacirk",
+      "image": "www.lider.cl/catalogo/images/homeIcon.svg",
+      "price": 171740
+    },
+    {
+      "id": 4,
+      "brand": "sjlzxeo",
+      "description": "pnyn rlxbewnk",
+      "image": "www.lider.cl/catalogo/images/computerIcon.svg",
+      "price": 890348
+    },
+    {
+      "id": 5,
+      "brand": "peuoooypt",
+      "description": "trcwl iagxxh",
+      "image": "www.lider.cl/catalogo/images/whiteLineIcon.svg",
+      "price": 814893
+    },
+    {
+      "id": 6,
+      "brand": "ñuo onfbtya",
+      "description": "vangde oswss",
+      "image": "www.lider.cl/catalogo/images/homeIcon.svg",
+      "price": 468750
+    },
+    {
+      "id": 7,
+      "brand": "wiñ nvnactr",
+      "description": "nkhux ztdnct",
+      "image": "www.lider.cl/catalogo/images/bicycleIcon.svg",
+      "price": 472543
+    },
+    {
+      "id": 8,
+      "brand": "sfzkvoñ",
+      "description": "hdvt tbrdeiñl",
+      "image": "www.lider.cl/catalogo/images/tvIcon.svg",
+      "price": 428894
+    },
+    {
+      "id": 9,
+      "brand": "nzo acrrñvh",
+      "description": "ahelf lxhñep",
+      "image": "www.lider.cl/catalogo/images/tvIcon.svg",
+      "price": 29530
+    },
+    {
+      "id": 10,
+      "brand": "adsfsda",
+      "description": "dñqy ipvukesh",
+      "image": "www.lider.cl/catalogo/images/smartphoneIcon.svg",
+      "price": 691504
+    },
+    {
+      "id": 11,
+      "brand": "iñmfdpd",
+      "description": "fqfwt ikpxov",
+      "image": "www.lider.cl/catalogo/images/gamesIcon.svg",
+      "price": 533752
+    },
+    {
+      "id": 12,
+      "brand": "vfbjgpt",
+      "description": "iwpazñ ltxsh",
+      "image": "www.lider.cl/catalogo/images/tvIcon.svg",
+      "price": 647307
+    },
+    {
+      "id": 13,
+      "brand": "breizhf",
+      "description": "dquyja crdgj",
+      "image": "www.lider.cl/catalogo/images/computerIcon.svg",
+      "price": 918745
+    },
+    {
+      "id": 14,
+      "brand": "dcc gdodkñg",
+      "description": "odrnuh ixdta",
+      "image": "www.lider.cl/catalogo/images/smartphoneIcon.svg",
+      "price": 643123
+    },
+    {
+      "id": 15,
+      "brand": "ckyprmg",
+      "description": "ñlagjl rnkmt",
+      "image": "www.lider.cl/catalogo/images/bedRoomIcon.svg",
+      "price": 953318
+    },
+    {
+      "id": 16,
+      "brand": "fqqejoy",
+      "description": "thyh mpzxgwnw",
+      "image": "www.lider.cl/catalogo/images/gamesIcon.svg",
+      "price": 525834
+    },
+    {
+      "id": 17,
+      "brand": "cni tñcapdx",
+      "description": "lzqf rkhusibs",
+      "image": "www.lider.cl/catalogo/images/gamesIcon.svg",
+      "price": 235494
+    },
+    {
+      "id": 18,
+      "brand": "asdfdsa",
+      "description": "zdczs omedat",
+      "image": "www.lider.cl/catalogo/images/smartphoneIcon.svg",
+      "price": 849666
+    },
+    {
+      "id": 19,
+      "brand": "ñhm pcjpemc",
+      "description": "ñnkak giehcj",
+      "image": "www.lider.cl/catalogo/images/homeIcon.svg",
+      "price": 868855
+    },
+    {
+      "id": 20,
+      "brand": "auc fjbkjyd",
+      "description": "tdge lbcakogp",
+      "image": "www.lider.cl/catalogo/images/bedRoomIcon.svg",
+      "price": 843751
+    },
+    {
+      "id": 21,
+      "brand": "hai jabwbsp",
+      "description": "hcpqws jyufm",
+      "image": "www.lider.cl/catalogo/images/tvIcon.svg",
+      "price": 829806
+    },
+    {
+      "id": 22,
+      "brand": "vhg aowurdr",
+      "description": "pqfqtr ybmiq",
+      "image": "www.lider.cl/catalogo/images/bicycleIcon.svg",
+      "price": 933254
+    },
+    {
+      "id": 23,
+      "brand": "dasad",
+      "description": "zyss vmcñvzwt",
+      "image": "www.lider.cl/catalogo/images/bedRoomIcon.svg",
+      "price": 370775
+    },
+    {
+      "id": 24,
+      "brand": "fzpusgc",
+      "description": "jnrojo tjcja",
+      "image": "www.lider.cl/catalogo/images/homeIcon.svg",
+      "price": 669045
+    },
+    {
+      "id": 25,
+      "brand": "soiayxr",
+      "description": "oftetv sxgwl",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 912974
+    },
+    {
+      "id": 26,
+      "brand": "ofojjctj",
+      "description": "ñwylwi yktiq",
+      "image": "www.lider.cl/catalogo/images/homeIcon.svg",
+      "price": 989405
+    },
+    {
+      "id": 27,
+      "brand": "soiayxr",
+      "description": "aeecg nfrieh",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 154070
+    },
+    {
+      "id": 28,
+      "brand": "aio efyubfx",
+      "description": "zymart xqisc",
+      "image": "www.lider.cl/catalogo/images/bicycleIcon.svg",
+      "price": 691783
+    },
+    {
+      "id": 29,
+      "brand": "dsafasd",
+      "description": "zlrwax bñyrh",
+      "image": "www.lider.cl/catalogo/images/furnitureIcon.svg",
+      "price": 756135
+    },
+    {
+      "id": 30,
+      "brand": "ñszuqiq",
+      "description": "pqln spqwnrgy",
+      "image": "www.lider.cl/catalogo/images/smartphoneIcon.svg",
+      "price": 571646
+    },
+    {
+      "id": 31,
+      "brand": "soiayxr",
+      "description": "mfys ubrkojpñ",
+      "image": "www.lider.cl/catalogo/images/electronicsIcon.svg",
+      "price": 339320
+    },
+    {
+      "id": 32,
+      "brand": "htvjwbo",
+      "description": "njñw xwynñhkc",
+      "image": "www.lider.cl/catalogo/images/computerIcon.svg",
+      "price": 426814
+    },
+    {
+      "id": 33,
+      "brand": "mpg kthroip",
+      "description": "cixd vrojdkyt",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 512936
+    },
+    {
+      "id": 34,
+      "brand": "ñszuqiq",
+      "description": "umaee kbtygd",
+      "image": "www.lider.cl/catalogo/images/tvIcon.svg",
+      "price": 931586
+    },
+    {
+      "id": 35,
+      "brand": "zlxalyn",
+      "description": "echqi xpñqdu",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 290926
+    },
+    {
+      "id": 36,
+      "brand": "adda",
+      "description": "tblb uñccrvup",
+      "image": "www.lider.cl/catalogo/images/bedRoomIcon.svg",
+      "price": 813504
+    },
+    {
+      "id": 37,
+      "brand": "cni tñcapdx",
+      "description": "blthh nnuezs",
+      "image": "www.lider.cl/catalogo/images/furnitureIcon.svg",
+      "price": 752153
+    },
+    {
+      "id": 38,
+      "brand": "lkq fqvlwia",
+      "description": "nbbd pzpvxgev",
+      "image": "www.lider.cl/catalogo/images/babyIcon.svg",
+      "price": 818318
+    },
+    {
+      "id": 39,
+      "brand": "ñljtzes",
+      "description": "avgpj gbyoñt",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 500
+    },
+    {
+      "id": 40,
+      "brand": "adfda",
+      "description": "znxnñm wymew",
+      "image": "www.lider.cl/catalogo/images/smartphoneIcon.svg",
+      "price": 391010
+    },
+    {
+      "id": 41,
+      "brand": "aio efyubfx",
+      "description": "ljñkv bmfwuq",
+      "image": "www.lider.cl/catalogo/images/gamesIcon.svg",
+      "price": 624491
+    },
+    {
+      "id": 42,
+      "brand": "sadfdas",
+      "description": "nkhux ztdnct",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 531691
+    },
+    {
+      "id": 43,
+      "brand": "lkdznamm",
+      "description": "ugis modjhltc",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 501528
+    },
+    {
+      "id": 44,
+      "brand": "akh flnzgbj",
+      "description": "hkko rpeamwyf",
+      "image": "www.lider.cl/catalogo/images/bedRoomIcon.svg",
+      "price": 227901
+    },
+    {
+      "id": 45,
+      "brand": "fumgxfd",
+      "description": "geblup hhotp",
+      "image": "www.lider.cl/catalogo/images/homeIcon.svg",
+      "price": 230491
+    },
+    {
+      "id": 46,
+      "brand": "dsasd",
+      "description": "muqn qblmiklf",
+      "image": "www.lider.cl/catalogo/images/furnitureIcon.svg",
+      "price": 65676
+    },
+    {
+      "id": 47,
+      "brand": "tig sfzfqqe",
+      "description": "dquyja crdgj",
+      "image": "www.lider.cl/catalogo/images/babyIcon.svg",
+      "price": 503220
+    },
+    {
+      "id": 48,
+      "brand": "zan wovdrnb",
+      "description": "gocut qmjlzf",
+      "image": "www.lider.cl/catalogo/images/smartphoneIcon.svg",
+      "price": 480752
+    },
+    {
+      "id": 49,
+      "brand": "gskkmqf",
+      "description": "echqi xpñqdu",
+      "image": "www.lider.cl/catalogo/images/whiteLineIcon.svg",
+      "price": 308688
+    },
+    {
+      "id": 50,
+      "brand": "xhy dhzñffq",
+      "description": "scpñ gfwyxggd",
+      "image": "www.lider.cl/catalogo/images/electronicsIcon.svg",
+      "price": 216596
+    },
+    {
+      "id": 51,
+      "brand": "dafad",
+      "description": "qrñfsf avzim",
+      "image": "www.lider.cl/catalogo/images/smartphoneIcon.svg",
+      "price": 696740
+    },
+    {
+      "id": 52,
+      "brand": "ñtw bkxkdvh",
+      "description": "jrdq edwwvtjj",
+      "image": "www.lider.cl/catalogo/images/gamesIcon.svg",
+      "price": 382438
+    },
+    {
+      "id": 53,
+      "brand": "uosñupo",
+      "description": "muqn qblmiklf",
+      "image": "www.lider.cl/catalogo/images/babyIcon.svg",
+      "price": 209629
+    },
+    {
+      "id": 54,
+      "brand": "jvvxqjq",
+      "description": "wbwym yzgjip",
+      "image": "www.lider.cl/catalogo/images/gamesIcon.svg",
+      "price": 597263
+    },
+    {
+      "id": 55,
+      "brand": "dassad",
+      "description": "zdczs omedat",
+      "image": "www.lider.cl/catalogo/images/electronicsIcon.svg",
+      "price": 986817
+    },
+    {
+      "id": 56,
+      "brand": "lhonejt",
+      "description": "doww inunojbs",
+      "image": "www.lider.cl/catalogo/images/bedRoomIcon.svg",
+      "price": 216123
+    },
+    {
+      "id": 57,
+      "brand": "dssd",
+      "description": "miyif abupnt",
+      "image": "www.lider.cl/catalogo/images/furnitureIcon.svg",
+      "price": 691029
+    },
+    {
+      "id": 58,
+      "brand": "daad",
+      "description": "vangde oswss",
+      "image": "www.lider.cl/catalogo/images/furnitureIcon.svg",
+      "price": 798724
+    },
+    {
+      "id": 59,
+      "brand": "wqo akberyb",
+      "description": "tbñrik gwisy",
+      "image": "www.lider.cl/catalogo/images/gamesIcon.svg",
+      "price": 323318
+    },
+    {
+      "id": 60,
+      "brand": "ufi hsyjñuv",
+      "description": "qhbañ ñbbbvr",
+      "image": "www.lider.cl/catalogo/images/bedRoomIcon.svg",
+      "price": 688798
+    },
+    {
+      "id": 61,
+      "brand": "eyn qkbkzir",
+      "description": "tjnj nxmcvwif",
+      "image": "www.lider.cl/catalogo/images/smartphoneIcon.svg",
+      "price": 935230
+    },
+    {
+      "id": 62,
+      "brand": "vohiyse",
+      "description": "urgsh jtiwis",
+      "image": "www.lider.cl/catalogo/images/tvIcon.svg",
+      "price": 954213
+    },
+    {
+      "id": 63,
+      "brand": "saddas",
+      "description": "wbwym yzgjip",
+      "image": "www.lider.cl/catalogo/images/bicycleIcon.svg",
+      "price": 200322
+    },
+    {
+      "id": 64,
+      "brand": "aypwtañ",
+      "description": "hññhd dwirfm",
+      "image": "www.lider.cl/catalogo/images/electronicsIcon.svg",
+      "price": 831244
+    },
+    {
+      "id": 65,
+      "brand": "daad",
+      "description": "xbcmy qjlmfn",
+      "image": "www.lider.cl/catalogo/images/computerIcon.svg",
+      "price": 202549
+    },
+    {
+      "id": 66,
+      "brand": "ufi hsyjñuv",
+      "description": "zmllgz rexdg",
+      "image": "www.lider.cl/catalogo/images/furnitureIcon.svg",
+      "price": 28902
+    },
+    {
+      "id": 67,
+      "brand": "dasfsad",
+      "description": "lzet scsdqzfp",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 9268
+    },
+    {
+      "id": 68,
+      "brand": "icu ycgdlyh",
+      "description": "fmurm kgyict",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 598433
+    },
+    {
+      "id": 69,
+      "brand": "zff jwmwnsf",
+      "description": "fvypx ihokad",
+      "image": "www.lider.cl/catalogo/images/babyIcon.svg",
+      "price": 594810
+    },
+    {
+      "id": 70,
+      "brand": "gksxznn",
+      "description": "iova uehphzvl",
+      "image": "www.lider.cl/catalogo/images/bedRoomIcon.svg",
+      "price": 383377
+    },
+    {
+      "id": 71,
+      "brand": "oqobdjn",
+      "description": "uzmj zvjjkhwf",
+      "image": "www.lider.cl/catalogo/images/whiteLineIcon.svg",
+      "price": 747870
+    },
+    {
+      "id": 72,
+      "brand": "tduuvtp",
+      "description": "rgvqme kvska",
+      "image": "www.lider.cl/catalogo/images/whiteLineIcon.svg",
+      "price": 338486
+    },
+    {
+      "id": 73,
+      "brand": "mkñ xchxkñt",
+      "description": "geblup hhotp",
+      "image": "www.lider.cl/catalogo/images/bedRoomIcon.svg",
+      "price": 45369
+    },
+    {
+      "id": 74,
+      "brand": "sfzkvoñ",
+      "description": "nñwofo hjals",
+      "image": "www.lider.cl/catalogo/images/gamesIcon.svg",
+      "price": 212014
+    },
+    {
+      "id": 75,
+      "brand": "ola zñehhmt",
+      "description": "vkqj wmbbnvxr",
+      "image": "www.lider.cl/catalogo/images/bicycleIcon.svg",
+      "price": 329592
+    },
+    {
+      "id": 76,
+      "brand": "xzv lqsagvw",
+      "description": "etoel hrmmfy",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 712724
+    },
+    {
+      "id": 77,
+      "brand": "ykfyibz",
+      "description": "edbc ñufvcjji",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 723319
+    },
+    {
+      "id": 78,
+      "brand": "giw knqhzñd",
+      "description": "rlñlw brhrka",
+      "image": "www.lider.cl/catalogo/images/bicycleIcon.svg",
+      "price": 776201
+    },
+    {
+      "id": 79,
+      "brand": "ñvpqehp",
+      "description": "ygyh jhfvliqf",
+      "image": "www.lider.cl/catalogo/images/gamesIcon.svg",
+      "price": 117207
+    },
+    {
+      "id": 80,
+      "brand": "qoa iehnule",
+      "description": "vxwnu nbyzhx",
+      "image": "www.lider.cl/catalogo/images/tvIcon.svg",
+      "price": 247111
+    },
+    {
+      "id": 81,
+      "brand": "tzi xwakjgu",
+      "description": "sggf ckzyksdn",
+      "image": "www.lider.cl/catalogo/images/tvIcon.svg",
+      "price": 348576
+    },
+    {
+      "id": 82,
+      "brand": "lsinñeq",
+      "description": "ufgj lklknqnz",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 874190
+    },
+    {
+      "id": 83,
+      "brand": "zhr yjntedu",
+      "description": "ugtp rknrdxar",
+      "image": "www.lider.cl/catalogo/images/electronicsIcon.svg",
+      "price": 591048
+    },
+    {
+      "id": 84,
+      "brand": "fwgtbtc",
+      "description": "jarkw ugbcez",
+      "image": "www.lider.cl/catalogo/images/whiteLineIcon.svg",
+      "price": 480072
+    },
+    {
+      "id": 85,
+      "brand": "orjtdtd",
+      "description": "yqfc rwkdjwqa",
+      "image": "www.lider.cl/catalogo/images/furnitureIcon.svg",
+      "price": 757322
+    },
+    {
+      "id": 86,
+      "brand": "tsf pzlflrg",
+      "description": "hqhoy qacirk",
+      "image": "www.lider.cl/catalogo/images/whiteLineIcon.svg",
+      "price": 91993
+    },
+    {
+      "id": 87,
+      "brand": "nhjmkdt",
+      "description": "wuvm ñeuumlbv",
+      "image": "www.lider.cl/catalogo/images/bedRoomIcon.svg",
+      "price": 881384
+    },
+    {
+      "id": 88,
+      "brand": "fzpusgc",
+      "description": "cixd vrojdkyt",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 750377
+    },
+    {
+      "id": 89,
+      "brand": "isd epoyhse",
+      "description": "fvypx ihokad",
+      "image": "www.lider.cl/catalogo/images/homeIcon.svg",
+      "price": 740320
+    },
+    {
+      "id": 90,
+      "brand": "hgb dizñchz",
+      "description": "rgvqme kvska",
+      "image": "www.lider.cl/catalogo/images/babyIcon.svg",
+      "price": 857367
+    },
+    {
+      "id": 91,
+      "brand": "hhfbixlbur",
+      "description": "zyss vmcñvzwt",
+      "image": "www.lider.cl/catalogo/images/gamesIcon.svg",
+      "price": 876437
+    },
+    {
+      "id": 92,
+      "brand": "vfj lnogcln",
+      "description": "wlxi lskieekm",
+      "image": "www.lider.cl/catalogo/images/computerIcon.svg",
+      "price": 759874
+    },
+    {
+      "id": 93,
+      "brand": "vln mfveacx",
+      "description": "mdclx fsgtñb",
+      "image": "www.lider.cl/catalogo/images/babyIcon.svg",
+      "price": 657311
+    },
+    {
+      "id": 94,
+      "brand": "ovi hzjyvui",
+      "description": "tjnj nxmcvwif",
+      "image": "www.lider.cl/catalogo/images/tvIcon.svg",
+      "price": 47972
+    },
+    {
+      "id": 95,
+      "brand": "vohiyse",
+      "description": "bcrv cjvmahiu",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 604986
+    },
+    {
+      "id": 96,
+      "brand": "sfzkvoñ",
+      "description": "yqfc rwkdjwqa",
+      "image": "www.lider.cl/catalogo/images/furnitureIcon.svg",
+      "price": 845586
+    },
+    {
+      "id": 97,
+      "brand": "dasad",
+      "description": "ctwod aewñte",
+      "image": "www.lider.cl/catalogo/images/electronicsIcon.svg",
+      "price": 767202
+    },
+    {
+      "id": 98,
+      "brand": "aim eixpfun",
+      "description": "ojkbhg gmojf",
+      "image": "www.lider.cl/catalogo/images/furnitureIcon.svg",
+      "price": 968349
+    },
+    {
+      "id": 99,
+      "brand": "aim eixpfun",
+      "description": "mbmqzj rirhd",
+      "image": "www.lider.cl/catalogo/images/furnitureIcon.svg",
+      "price": 595572
+    },
+    {
+      "id": 100,
+      "brand": "qeiydij",
+      "description": "cxzbz lahbhe",
+      "image": "www.lider.cl/catalogo/images/computerIcon.svg",
+      "price": 756530
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "page": 1,
+  "totalPages": 1,
+  "products": [
+    {
+      "id": 14,
+      "brand": "dcc gdodkñg",
+      "description": "odrnuh ixdta",
+      "image": "www.lider.cl/catalogo/images/smartphoneIcon.svg",
+      "basePrice": 643123,
+      "price": 321561.5,
+      "discountPercent": 50
+    }
+  ]
+}

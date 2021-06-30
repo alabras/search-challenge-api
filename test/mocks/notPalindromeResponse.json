@@ -1,0 +1,48 @@
+{
+  "page": 1,
+  "totalPages": 1,
+  "products": [
+    {
+      "id": 23,
+      "brand": "dasad",
+      "description": "zyss vmcñvzwt",
+      "image": "www.lider.cl/catalogo/images/bedRoomIcon.svg",
+      "price": 370775
+    },
+    {
+      "id": 42,
+      "brand": "sadfdas",
+      "description": "nkhux ztdnct",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 531691
+    },
+    {
+      "id": 55,
+      "brand": "dassad",
+      "description": "zdczs omedat",
+      "image": "www.lider.cl/catalogo/images/electronicsIcon.svg",
+      "price": 986817
+    },
+    {
+      "id": 63,
+      "brand": "saddas",
+      "description": "wbwym yzgjip",
+      "image": "www.lider.cl/catalogo/images/bicycleIcon.svg",
+      "price": 200322
+    },
+    {
+      "id": 67,
+      "brand": "dasfsad",
+      "description": "lzet scsdqzfp",
+      "image": "www.lider.cl/catalogo/images/toysIcon.svg",
+      "price": 9268
+    },
+    {
+      "id": 97,
+      "brand": "dasad",
+      "description": "ctwod aewñte",
+      "image": "www.lider.cl/catalogo/images/electronicsIcon.svg",
+      "price": 767202
+    }
+  ]
+}

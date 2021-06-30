@@ -25,6 +25,8 @@ jobs:
         run: npm run lint
       - name: Unit Test
         run: npm run test:unit-ci
+      - name: Integration Test
+        run: npm run test:integration-ci
       - name: Login docker
         uses: docker/login-action@v1
         with:
